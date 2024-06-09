@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>10</title>
+		<style>
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			.main-container {
+				gap: 3px;
+				display: flex;
+				flex: 4;
+			}
+
+			.main-column {
+				gap: 3px;
+				width: 100%;
+				height: inherit;
+				display: flex;
+				flex-direction: column;
+				background-color: #ffffff;
+			}
+
+			.column1 {
+				gap: 3px;
+				flex: 4;
+			}
+
+			.column2 {
+				flex: 1;
+				background-color: #535353;
+			}
+
+			.inner-block {
+				gap: 3px;
+				flex: 1;
+				background-color: #4a9fee;
+			}
+
+			.sub-column {
+				gap: 3px;
+				flex: 2;
+				display: flex;
+				height: inherit;
+			}
+			.column-block-1 {
+				flex: 3;
+				background-color: #9f0505;
+			}
+			.column-block-2 {
+				flex: 2;
+				background-color: #edd30d;
+			}
+			.sub-block {
+				gap: 3px;
+				height: 100%;
+			}
+
+			.sub-block-main {
+				display: flex;
+				height: 50%;
+			}
+
+			.sub-block-block1 {
+				width: 100%;
+				background-color: #7bf6ff;
+			}
+
+			.sub-block-block2 {
+				width: 100%;
+				background-color: #e68aec;
+			}
+			.column-block-3 {
+				background-color: #1b8f13;
+			}
+			.container-2 {
+				background-color: #834e23;
+				flex: 1;
+			}
+
+			.wrapper {
+				gap: 3px;
+				display: flex;
+				flex-direction: column;
+				width: inherit;
+				height: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="main-container">
+				<div class="main-column column1">
+					<div class="inner-block"></div>
+					<div class="sub-column">
+						<div class="sub-block column-block-1">
+							<div class="sub-block-main">
+								<div class="sub-block-block1"></div>
+								<div class="sub-block-block2"></div>
+							</div>
+						</div>
+						<div class="sub-block column-block-2"></div>
+					</div>
+				</div>
+				<div class="main-column column2"></div>
+			</div>
+			<div class="container-2"></div>
+		</div>
+	</body>
+</html>
